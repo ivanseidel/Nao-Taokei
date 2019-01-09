@@ -27,7 +27,7 @@ if (!fs.existsSync(app.TMP_PATH))
 app.admin = admin
 app.admin.initializeApp({
   credential: admin.credential.cert(credentials),
-  databaseURL: 'https://is-now-illegal.firebaseio.com',
+  databaseURL: 'https://agorailegal.firebaseio.com',
   databaseAuthVariableOverride: {
     uid: 'worker'
   }

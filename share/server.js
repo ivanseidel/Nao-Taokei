@@ -16,11 +16,11 @@ var template = handlebars.compile(fs.readFileSync('index.html').toString());
 
 // Home Page
 var home = template({
-  url: 'http://isnowillegal.com',
-  site: 'IsNowIllegal',
-  title: 'Is Now Illegal',
-  gif_url: 'http://isnowillegal.com',
-  description: 'Declare things illegal and trump will sign it',
+  url: 'http://agorailegal.com',
+  site: 'AgoraIlegal',
+  title: 'Agora é Ilegal',
+  gif_url: 'http://agorailegal.com',
+  description: 'Declare coisas ilegais e o Bolsonaro irá assinar',
   content_type: 'website',
 });
 
@@ -35,13 +35,13 @@ app.express.use(express.static('public'))
 app.express.set('view engine', 'handlebars');
 
 app.express.get('/', (req, res) => {
-  res.redirect('http://isnowillegal.com');
+  res.redirect('http://agorailegal.com');
 });
 
 app.express.get('/:gif.gif', apicache('10 minutes'), (req, res) => {
   const word = req.params.gif || '';
   const filename = word.toUpperCase();
-  const uri = `https://storage.googleapis.com/is-now-illegal.appspot.com/gifs/${filename}.gif`;
+  const uri = `https://storage.googleapis.com/agorailegal.appspot.com/gifs/${filename}.gif`;
 
   res.setHeader('Content-Type', 'image/gif');
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -52,20 +52,20 @@ app.express.get('/:gif', apicache('10 minutes'), (req, res) => {
   const word = req.params.gif || '';
   const filename = word.toUpperCase();
 
-  // const uri = `http://share.isnowillegal.com/${filename}.gif`
-  const uri = `https://storage.googleapis.com/is-now-illegal.appspot.com/gifs/${filename}.gif`;
+  // const uri = `http://share.agorailegal.com/${filename}.gif`
+  const uri = `https://storage.googleapis.com/agorailegal.appspot.com/gifs/${filename}.gif`;
 
   res.status(200).send(
     template({
       url: uri,
-      site: 'IsNowIllegal',
-      title: `${word} Is Now Illegal!`,
+      site: 'AgoraIlegal',
+      title: `${word} Agora é Ilegal!`,
       gif_url: uri,
       // TODO: this should be dynamic
-      gif_preview_url: 'http://share.isnowillegal.com/preview.png',
-      description: 'Declare things illegal and trump will sign it.',
+      gif_preview_url: 'http://share.agorailegal.com/preview.png',
+      description: 'Declare coisas ilegais e o Bolsonaro irá assinar',
       content_type: 'video.other',
-      share_url: `http://isnowillegal.com/?${word}`,
+      share_url: `http://agorailegal.com/?${word}`,
     })
   );
 });

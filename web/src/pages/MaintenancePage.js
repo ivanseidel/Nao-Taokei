@@ -8,7 +8,7 @@ export default () => (
   <Page>
     <CenterBox>
       <H1>
-        We are having too much traffic. Please come back in a few minutes.
+        Nós estamos tendo muito tráfego. Por favor, volte em alguns minutos
       </H1>
     </CenterBox>
   </Page>

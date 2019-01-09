@@ -6,7 +6,7 @@ const GifGenerator = require('../GifGenerator')
 
 // Ger Firebase references
 var gifsRef = app.admin.database().ref('gifs')
-var gifsStorage = app.gcs.bucket('is-now-illegal.appspot.com')
+var gifsStorage = app.gcs.bucket('agorailegal.appspot.com')
 
 module.exports = (data, progress, resolve, reject) => {
   // Save start timestamp
@@ -84,7 +84,7 @@ module.exports = (data, progress, resolve, reject) => {
       console.log(`[${gifWord}] Saving to database`)
 
       gifRef.set({
-        url: 'https://storage.googleapis.com/is-now-illegal.appspot.com/gifs/'+fileName,
+        url: 'https://storage.googleapis.com/agorailegal.appspot.com/gifs/'+fileName,
         views: dbObject.views || 1,
         created: dbObject.created || new Date(),
         processTime: Date.now() - startTime

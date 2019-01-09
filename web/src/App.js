@@ -61,7 +61,7 @@ export default class extends Component {
                 href="https://www.patreon.com/isnowillegal"
                 target="_blank"
               >
-                <span>⚠️ Click here to help keep this site alive. 💰🔥</span>
+                <span>⚠️ Clique aqui para manter esse site no ar. 💰🔥</span>
               </Link>
             </p>
           </DonationHeader>
@@ -103,17 +103,17 @@ export default class extends Component {
             <p>
               <Link
                 className="github-button"
-                href="https://github.com/ivanseidel/Is-Now-Illegal"
+                href="https://github.com/ivanseidel/Agora-Ilegal"
                 data-style="mega"
-                data-count-href="/ivanseidel/Is-Now-Illegal/stargazers"
-                data-count-api="/repos/ivanseidel/Is-Now-Illegal#stargazers_count"
+                data-count-href="/ivanseidel/Agora-Ilegal/stargazers"
+                data-count-api="/repos/ivanseidel/Agora-Ilegal#stargazers_count"
                 data-count-aria-label="# stargazers on GitHub"
-                aria-label="Star ivanseidel/Is-Now-Illegal on GitHub"
+                aria-label="Star ivanseidel/Agora-Ilegal on GitHub"
               >
                 Star on GitHub
               </Link>
             </p>
-            <p>A nerdy protest made by </p>
+            <p>Um protesto nerd feito por </p>
             <p>
               <Link href="https://github.com/ivanseidel" target="_blank">
                 Ivan Seidel
@@ -122,9 +122,13 @@ export default class extends Component {
               <Link href="https://twitter.com/brunolemos" target="_blank">
                 Bruno Lemos
               </Link>
-              {' & '}
+              {', '}
               <Link href="https://github.com/joaopedrovbs" target="_blank">
                 João Pedro
+              </Link>
+              {' & '}
+              <Link href="https://github.com/feosilva" target="_blank">
+                Felipe Silva
               </Link>
             </p>
           </Footer>

@@ -155,12 +155,12 @@ class SharePage extends Component {
 
   getBeautifulGifURL = () =>
     tryEncodeURI(
-      `http://share.isnowillegal.com/${this.state.subject.toUpperCase()}.gif`,
+      `http://share.agorailegal.com/${this.state.subject.toUpperCase()}.gif`,
     );
   getShareURL = () =>
-    tryEncodeURI(`http://share.isnowillegal.com/${this.state.subject}`);
+    tryEncodeURI(`http://share.agorailegal.com/${this.state.subject}`);
   getDownloadURL = () =>
-    tryEncodeURI(`http://share.isnowillegal.com/${this.state.subject}.gif`);
+    tryEncodeURI(`http://share.agorailegal.com/${this.state.subject}.gif`);
 
   goOnline = () => {
     firebase.database().goOnline();
@@ -227,7 +227,7 @@ class SharePage extends Component {
 
   download = () => {
     // download(this.getDownloadURL());
-    alert('Right click at the Gif > Save image as...', 'How to download');
+    alert('Clique no Gif > Salvar imagem como...', 'Como fazer download');
   };
 
   updateAddThis = () => {
@@ -283,16 +283,16 @@ class SharePage extends Component {
     // const gifURLtoCopy = this.getBeautifulGifURL();
 
     return (
-      <Page background="transparent" title={`${subject} Is Now Illegal!`}>
+      <Page background="transparent" title={`${subject} Agora é Ilegal!`}>
         <CenterBox>
-          <H1><SubjectText>{subject}</SubjectText> is now illegal!</H1>
+          <H1><SubjectText>{subject}</SubjectText> agora é ilegal!</H1>
           <GifContainer>
             <Gif src={gifURL} loading={loading} />
             <Row horizontal invert>
               <SocialButtons>
                 <div
                   className="addthis_inline_share_toolbox"
-                  data-title={`${subject} is now illegal! #IsNowIllegal`}
+                  data-title={`${subject} agora é ilegal! #AgoraIlegal`}
                   data-url={shareURL}
                 />
               </SocialButtons>
@@ -302,17 +302,17 @@ class SharePage extends Component {
             </Row>
             <Row muted>
               <p>
-                👉 Sharing tip: Download the image, then upload where you want
-                (e.g
+                👉 Dica de compartilhamento: Faça o download da imagem e upload aonde quiser
+                (ex
                 {' '}
                 <a href="http://twitter.com" target="_blank">twitter.com</a>
                 ).
 
-                {"It's better do this than use above sharing buttons!"}
+                {"É melhor fazer isso usando os botões abaixo"}
               </p>
               <br />
               <p>
-                <RouterLink to="/">Make another thing illegal</RouterLink>
+                <RouterLink to="/">Tornar outra coisa ilegal</RouterLink>
               </p>
             </Row>
             <Footer>
@@ -325,8 +325,8 @@ class SharePage extends Component {
                 >
                   {
                     copiedURL === shareURL
-                      ? 'Copied share link!'
-                      : ' Copy share link '
+                      ? 'Link copiado!'
+                      : ' Copiar link '
                   }
                 </CopyButton>
               </Row>

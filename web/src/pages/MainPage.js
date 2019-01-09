@@ -108,7 +108,7 @@ class App extends Component {
     return (
       <Page background="transparent">
         <CenterBox>
-          <H1>{"What's going to be illegal?"}</H1>
+          <H1>{"O que você quer ilegalizar?"}</H1>
           <StyledForm onSubmit={this.submitIllegalize} radius={radius}>
             <FormInput
               innerRef={ref => {
@@ -116,7 +116,7 @@ class App extends Component {
               }}
               type="text"
               name="subject"
-              placeholder="Stuff"
+              placeholder="Coisas"
               value={subject}
               onChange={this.handleSubjectChange}
               radius={radius}
@@ -129,7 +129,7 @@ class App extends Component {
               onClick={this.submitIllegalize}
               disabled={!subject}
             >
-              Illegalize!
+              Ilegalizar!
             </FormButton>
           </StyledForm>
         </CenterBox>
