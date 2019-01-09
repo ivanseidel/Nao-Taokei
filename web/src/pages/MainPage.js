@@ -116,7 +116,7 @@ class App extends Component {
               }}
               type="text"
               name="subject"
-              placeholder="Stuff"
+              placeholder="Coisas"
               value={subject}
               onChange={this.handleSubjectChange}
               radius={radius}
