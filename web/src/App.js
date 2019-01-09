@@ -122,9 +122,13 @@ export default class extends Component {
               <Link href="https://twitter.com/brunolemos" target="_blank">
                 Bruno Lemos
               </Link>
-              {' & '}
+              {', '}
               <Link href="https://github.com/joaopedrovbs" target="_blank">
                 João Pedro
+              </Link>
+              {' & '}
+              <Link href="https://github.com/feosilva" target="_blank">
+                Felipe Silva
               </Link>
             </p>
           </Footer>

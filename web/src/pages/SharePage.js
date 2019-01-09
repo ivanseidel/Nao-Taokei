@@ -227,7 +227,7 @@ class SharePage extends Component {
 
   download = () => {
     // download(this.getDownloadURL());
-    alert('Right click at the Gif > Save image as...', 'How to download');
+    alert('Clique no Gif > Salvar imagem como...', 'Como fazer download');
   };
 
   updateAddThis = () => {
@@ -302,17 +302,17 @@ class SharePage extends Component {
             </Row>
             <Row muted>
               <p>
-                👉 Sharing tip: Download the image, then upload where you want
-                (e.g
+                👉 Dica de compartilhamento: Faça o download da imagem e upload aonde quiser
+                (ex
                 {' '}
                 <a href="http://twitter.com" target="_blank">twitter.com</a>
                 ).
 
-                {"It's better do this than use above sharing buttons!"}
+                {"É melhor fazer isso usando os botões abaixo"}
               </p>
               <br />
               <p>
-                <RouterLink to="/">Make another thing illegal</RouterLink>
+                <RouterLink to="/">Tornar outra coisa ilegal</RouterLink>
               </p>
             </Row>
             <Footer>
@@ -325,8 +325,8 @@ class SharePage extends Component {
                 >
                   {
                     copiedURL === shareURL
-                      ? 'Copied share link!'
-                      : ' Copy share link '
+                      ? 'Link copiado!'
+                      : ' Copiar link '
                   }
                 </CopyButton>
               </Row>

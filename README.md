@@ -1,16 +1,16 @@
-# Is Now Illegal!
-A NERD protest against Trump's Immigration ban 🚫
-Go to [IsNowIllegal.com](http://isnowillegal.com) and type what you want to make illegal!
+# Agora é Ilegal! 🇧🇷
+Um protesto NERD contra a saída do Brasil do Pacto de Migração da ONU 🚫
+Acesse [AgoraIlegal.com](http://agorailegal.com) e digite o que quer tornar ilegal!
 
-## What's this?
-A webapp that gives you the Donald J. Trump power. Pretend you are Trump for a few seconds, make something illegal, share with friends and have fun!
+## O que é isso?
+Um webapp que te dá os poderes de Jair Messias Bolsonaro. Finja que é o Bolsonaro por alguns segundos, assine algum decreto, torne algo ilegal e compartilhe com os amigos!
 
-## Donate
+## Doação
 
-The server costs are too high and we will shutdown very soon if we don't get enough donations. For real. 😔
-Please click to [Donate via Patreon](https://www.patreon.com/isnowillegal) or contact us below.
+O custo de servidor é muito elevado e ficará fora do ar em breve caso não receba doações. De verdade. 😔
+Por favor clique em [Doar via Patreon](https://www.patreon.com/isnowillegal) ou contate um de nós
 
-## Who made this?
+## Quem fez isso?
 ![](https://github.com/ivanseidel.png?size=100)
 Ivan Seidel ([github](https://github.com/ivanseidel))
 
@@ -20,4 +20,13 @@ Bruno Lemos ([github](https://github.com/brunolemos), [twitter](https://twitter.
 ![](https://github.com/joaopedrovbs.png?size=100)
 João Pedro ([github](https://github.com/joaopedrovbs))
 
-See full list of [contributors](https://github.com/ivanseidel/Is-Now-Illegal/graphs/contributors).
+![](https://github.com/feosilva.png?size=100)
+Felipe Silva ([github](https://github.com/feosilva))
+
+![](https://github.com/samillamacedo.png?size=100)
+Samilla Macedo ([github](https://github.com/samillamacedo))
+
+![](https://github.com/felipe-augusto.png?size=100)
+Felipe Augusto ([github](https://github.com/felipe-augusto))
+
+Veja a lista completa de [contribuidores](https://github.com/ivanseidel/Agora-Ilegal/graphs/contributors).
