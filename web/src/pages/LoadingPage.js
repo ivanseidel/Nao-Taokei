@@ -46,7 +46,7 @@ class LoadingPage extends Component {
     clearTimeout(this.timeout);
     // only wait for the gif for a few seconds, then redirect
     this.timeout = setTimeout(() => {
-      setMessage('We are having too many access! If it does not work for you, please bookmark this site and come back later.');
+      setMessage('Nós estamos tendo muitos acessos! Se não funcionou para você, por favor salve esse site nos favoritos e volte mais tarde.');
       push(`/#${subject}`);
     }, 15000);
   };
@@ -63,7 +63,7 @@ class LoadingPage extends Component {
         <Page background="transparent">
           <CenterBox>
             <H1>
-              Checking if <SubjectText>{subject}</SubjectText> is illegal...
+              Verifique se <SubjectText>{subject}</SubjectText> está ilegalizado...
             </H1>
           </CenterBox>
         </Page>
@@ -73,9 +73,9 @@ class LoadingPage extends Component {
     return (
       <Page background="transparent">
         <CenterBox>
-          <H1>Making <SubjectText>{subject}</SubjectText> illegal...</H1>
+          <H1>Tornando <SubjectText>{subject}</SubjectText> ilegal...</H1>
           <StyledForm radius={radius}>
-            <FormBigText>Please wait...</FormBigText>
+            <FormBigText>Carregando...</FormBigText>
           </StyledForm>
         </CenterBox>
       </Page>
