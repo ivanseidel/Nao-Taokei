@@ -1,14 +1,14 @@
-# Is Now Illegal!
-A NERD protest against Trump's Immigration ban 🚫
-Go to [IsNowIllegal.com](http://isnowillegal.com) and type what you want to make illegal!
+# Nao Taokei
+Um app NERD porque nem tudo taokei né mesmo?
+Va para [naoTaokei.com](http://naotaokei.com) e digite o que quer que não esteja mais okei
 
-## What's this?
-A webapp that gives you the Donald J. Trump power. Pretend you are Trump for a few seconds, make something illegal, share with friends and have fun!
+## O que é isso?
+Um webapp que te dá o poder do Bolsonaro. Finja que é o Bolso por alguns segundos, e deixe algo não estar mais okei, compartilhe com os amigos e se divirta!
 
-## Donate
+## De onde isso surgiu?
+[Is-Now-Illegal](https://github.com/ivanseidel/Nao-Taokei) foi um projeto feito na época em que o Thrump assinou um decreto que bania imigrantes dos estados unidos. Resolvemos fazer uma brincadeira com a situação, e criamos o "Is Now Illegal". 
 
-The server costs are too high and we will shutdown very soon if we don't get enough donations. For real. 😔
-Please click to [Donate via Patreon](https://www.patreon.com/isnowillegal) or contact us below.
+Agora, com outro contexto e sem nenhum lado à tomar, fizemos algo parecido que tenha um unico proposito: **Huehue BR**.
 
 ## Who made this?
 ![](https://github.com/ivanseidel.png?size=100)
@@ -20,4 +20,6 @@ Bruno Lemos ([github](https://github.com/brunolemos), [twitter](https://twitter.
 ![](https://github.com/joaopedrovbs.png?size=100)
 João Pedro ([github](https://github.com/joaopedrovbs))
 
-See full list of [contributors](https://github.com/ivanseidel/Is-Now-Illegal/graphs/contributors).
+
+
+See full list of [contributors](https://github.com/ivanseidel/Nao-Taokei/graphs/contributors).
